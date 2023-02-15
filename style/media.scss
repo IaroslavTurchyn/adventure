@@ -114,6 +114,15 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+
+        &-content{
+            p{
+                text-align: center;
+            }
+            .btn{
+                margin-bottom: 50px;
+            }
+        }
     }
     
     
@@ -135,15 +144,7 @@
             font-size: 14px;
         }
 }
-    .footer-info-content{
-        p{
-            text-align: center;
-        }
-
-        .btn{
-            margin-bottom: 40px;
-        }
-    }
+  
 
     .footer-img{
         max-width: 512px;
